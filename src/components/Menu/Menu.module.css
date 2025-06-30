@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/* Montserrat font styles */
+:root{
+    --fonte-principal: 'Montserrat', sans-serif;
+}
+
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Menu.module.css */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  font-family: var(--fonte-principal);
+  font-weight: 400;
+  font-size: 16px;
+  padding: 2% 6rem;
+}
+
+.logo img {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+ 
+}
+
+.logo img:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}	
+
+.menu ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.menu a {
+  position: relative;
+  text-decoration: none;
+  color: #474646;
+  font-weight: 400;
+  padding-bottom: 2px;
+}
+
+.menu a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #8d8888;
+    transition: width 0.3s ease;
+}
+
+.menu a:hover::after {
+    width: 100%;
+}
+
+/* Responsividade para tablets */
+@media (max-width: 768px) {
+    .container {
+        padding: 0 15px;
+    }
+    
+    .nav-menu {
+        gap: 15px;
+        font-size: 14px;
+    }
+    
+    .logo-text {
+        font-size: 20px;
+    }
+}
+
+/* Responsividade para mobile */
+@media (max-width: 480px) {
+    .nav-menu {
+        display: none;
+    }
+    
+    .mobile-menu-toggle {
+        display: block;
+        background: none;
+        border: none;
+        font-size: 24px;
+        color: #2c3e50;
+        cursor: pointer;
+    }
+}
