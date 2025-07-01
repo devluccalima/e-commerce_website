@@ -1,4 +1,4 @@
-import logo from '../../assets/img/logo.png';
+import logo from '../../assets/img/logo.svg';
 import styles from'./Menu.module.css';
 
 export default function Menu(){
