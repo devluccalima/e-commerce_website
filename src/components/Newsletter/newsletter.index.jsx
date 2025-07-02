@@ -1,8 +1,9 @@
-import styles from './Newsletter.module.css';
+import styles from './newsletter.module.css';
 import formStyles from './form.module.css';
 
 export default function AssinaturaNewsletter() {
     return (
+        <header>
         <div className={styles.assinaturaNewsletter}>
             <div className={styles.assinaturaNewsletter__container}>
                 <div className={styles.assinaturaNewsletter__container__text}>
@@ -30,5 +31,6 @@ export default function AssinaturaNewsletter() {
                 </div>
             </div>
         </div>
+        </header>
     );
 }

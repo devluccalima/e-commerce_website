@@ -4,7 +4,7 @@
   margin-top: 16px;
   position: relative;
   max-width: 600px;  
-  margin: 3rem auto;
+  margin: auto;
   font-family: Montserrat;
 
 }
@@ -46,6 +46,8 @@
   letter-spacing: 0em;
   text-align: left;
   margin-bottom: 24px;
+  color: #888;
+  
 }
 
 .assinaturaNewsletter h1 strong {
@@ -56,6 +58,7 @@
   line-height: 1;
   letter-spacing: 0em;
   text-align: left;
+  color: black;
 }
 @media (min-width: 920px) {
   .assinaturaNewsletter h1 strong {

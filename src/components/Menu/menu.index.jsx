@@ -7,7 +7,7 @@ export default function Menu(){
         <h1 className={styles.logo}><img src={logo} alt="Logo CasaVerde" /></h1>
         <nav className={styles.menu}>
             <ul>
-                <li><a href="#HowTo">Como fazer</a></li>
+                <li><a href="#howto">Como fazer</a></li>
                 <li><span class="nav-separator">/</span></li>
                 <li><a href="#Offers">Ofertas</a></li>
                 <li><span class="nav-separator">/</span></li>

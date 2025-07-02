@@ -8,6 +8,10 @@ main {
     margin: auto;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 @media(min-width: 920px) {
     body {
         background-image: url('../../assets/img/body-shape.svg'),

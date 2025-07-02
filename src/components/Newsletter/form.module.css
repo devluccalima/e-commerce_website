@@ -27,9 +27,9 @@
   background-repeat: no-repeat;
   background-position: 16px center;
   outline-color: #ffcb47;
-  box-shadow: 10px 10px 30px 0px #0000000f;
   border: 0;
-  
+  outline: 0;
+  box-shadow: 0px 25px 90px rgba(0, 0, 0, 0.3);
 }
 
 .formContainer:hover {
@@ -50,7 +50,7 @@
   width: 100%;
   background-color: #ffcb47;
   padding: 27px;
-  box-shadow: 10px 10px 30px 0px #ffcb474d;
+  box-shadow: 0px 25px 90px rgba(0, 0, 0, 0.3);
   border: 0;
   font-family: Montserrat;
 }
