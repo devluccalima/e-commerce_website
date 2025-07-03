@@ -1,0 +1,69 @@
+.card {    border-radius: 8px;
+    overflow: hidden; /* Garante que a imagem e o conteúdo respeitem o border-radius */
+    background: #ffffff;
+    box-shadow: 0px 10px 30px 5px rgba(0, 0, 0, 0.07);
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    font-family: 'Montserrat';
+    width: 380px;
+    height: 200px;
+    text-align: left;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    overflow: hidden;
+  }
+  
+  .card:hover {
+    transform: scale(1.02);
+    box-shadow: 0px 12px 35px 8px rgba(0, 0, 0, 0.09);
+  }
+  
+
+  .cardImage {
+    object-fit: cover;
+    flex: 0 0 40%;
+    width: 40%;
+    object-fit: cover;
+  }
+  
+  .cardContent {
+    flex-grow: 1; /* Faz o conteúdo ocupar o espaço restante */
+    padding: 1.5rem; /* Adiciona espaçamento interno para o texto */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centraliza o conteúdo (título, preço, botão) verticalmente */
+  }
+
+  .card h3 {
+    /* Usando a fonte do título de howto.module.css */
+    font-family: 'Elsie Swash Caps';
+    font-size: 1.5rem; /* 24px */
+    font-weight: bold;
+    line-height: 1.2;
+    margin: 0.5rem 0;
+    margin-top: 0;
+  }
+  
+  .card p {
+    font-size: 1rem; /* 16px */
+    color: #666;
+    margin: 0.5rem 0 1.5rem; /* Aumenta a margem para empurrar o botão para baixo */
+  }
+  
+  .card a {
+    display: inline-block;
+    /* Usando a cor de destaque de howto.module.css */
+    color: #ffcb47;
+    padding: 0.3rem 1rem;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    border: none;
+    text-align: center;
+    align-self: flex-start; /* Alinha o botão à esquerda */
+  }
+  
+  .card a:hover {
+    background-color: #f8b81c;
+  }

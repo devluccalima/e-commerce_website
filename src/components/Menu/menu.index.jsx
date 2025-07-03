@@ -9,7 +9,7 @@ export default function Menu(){
             <ul>
                 <li><a href="#howto">Como fazer</a></li>
                 <li><span class="nav-separator">/</span></li>
-                <li><a href="#Offers">Ofertas</a></li>
+                <li><a href="#offers">Ofertas</a></li>
                 <li><span class="nav-separator">/</span></li>
                 <li><a href="#Depoiments">Depoimentos</a></li>
                 <li><span class="nav-separator">/</span></li>

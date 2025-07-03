@@ -1,0 +1,37 @@
+/* Estilo da seção que contém tudo */
+.ofertas {
+    padding: 50px 0; /* Aumenta o padding vertical para dar mais espaço */
+    background-color: #fff; /* Fundo cinza claro para a página */
+    margin-top: 200px;
+    box-shadow: 0px 0px 60px 10px rgba(0, 0, 0, 0.3);
+    height: 700px; /* Define uma altura mínima maior */
+    max-width: 2000px; /* Aumenta a largura máxima */
+    width: 100%; /* Garante que ocupe toda a largura disponível */
+    margin-left: auto; /* Centraliza horizontalmente */
+    margin-right: auto; /* Centraliza horizontalmente */
+}
+
+
+/* Estilo do título "Ofertas" */
+.ofertas h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    text-align: center;
+    font-family: Elsie Swash Caps;
+    font-weight: bold;
+    font-size: 5rem;
+}
+
+/* O grid que organiza os cards */
+.grid {
+    display: grid;
+    /* Cria colunas que se ajustam ao tamanho da tela */
+    grid-template-columns: repeat(3, 1fr); /* Cria 3 colunas de largura igual */
+    gap: 60px; /* Aumenta o espaço entre os cards */
+    width: 100%;
+    max-width: 1800px; /* Aumenta a largura máxima do grid */
+    padding: 0 80px; /* Adiciona mais espaçamento lateral */
+    box-sizing: border-box; /* Garante que o padding não afete a largura total */
+    justify-items: center; /* Centraliza os cards dentro de suas colunas */
+    margin: 0 auto; /* Centraliza o grid na página */
+}

@@ -1,0 +1,63 @@
+.card {
+  background: #ffffff;
+  box-shadow: 0px 10px 30px 5px rgba(0, 0, 0, 0.07);
+  display: flex;
+  flex-direction: row; /* Alterado para linha */
+  align-items: center; /* Alinha os itens verticalmente */
+  padding: 1rem;
+  font-family: 'Montserrat', sans-serif;
+  max-width: 480px; /* Aumenta a largura máxima para um layout horizontal */
+  text-align: left;
+  gap: 1.5rem; /* Adiciona espaço entre a imagem e o conteúdo */
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.02);
+  box-shadow: 0px 12px 35px 8px rgba(0, 0, 0, 0.09);
+}
+
+.cardImage {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  flex-shrink: 0; /* Impede que a imagem encolha */
+}
+
+.cardContent {
+  flex-grow: 1; /* Faz o conteúdo ocupar o espaço restante */
+}
+.card h3 {
+  /* Usando a fonte do título de howto.module.css */
+  font-family: 'Elsie Swash Caps', cursive;
+  font-size: 1.5rem; /* 24px */
+  font-weight: 900;
+  line-height: 1.2;
+  margin: 0.5rem 0;
+  margin-top: 0;
+}
+
+.card p {
+  font-size: 1rem; /* 16px */
+  color: #666;
+  margin: 0.5rem 0 1.5rem; /* Aumenta a margem para empurrar o botão para baixo */
+}
+
+.card a {
+  display: inline-block;
+  /* Usando a cor de destaque de howto.module.css */
+  background-color: #ffcb47;
+  color: #000;
+  padding: 0.6rem 1.2rem;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+  border: none;
+  text-align: center;
+  align-self: flex-start; /* Alinha o botão à esquerda */
+}
+
+.card a:hover {
+  background-color: #f8b81c;
+}

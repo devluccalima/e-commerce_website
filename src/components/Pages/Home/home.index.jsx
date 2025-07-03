@@ -9,7 +9,7 @@ export default function HomePage() {
       <Menu />
       <Newsletter />
       <HowTo />
-
+      <Offers />
     </main>
   );
 }

@@ -3,10 +3,8 @@
   padding: 16px;
   margin-top: 16px;
   position: relative;
-  max-width: 600px;  
-  margin: auto;
+  max-width: 600px;
   font-family: Montserrat;
-
 }
 
 @media (min-width: 920px) {
@@ -21,9 +19,9 @@
       height: 975px;
       background-image: url('../../assets/img/hero-image.png');
       position: absolute;
-      --baseDistance: -287px;
+      --baseDistance: -227px;
       top: calc(var(--baseDistance) + 50px);
-      right: 0;
+      right: -900px;
       z-index: -1;
       pointer-events: none;
   }
@@ -36,6 +34,7 @@
 .assinaturaNewsletter__container__text {
   max-width: 481px;
   margin-bottom: 32px;
+  margin-left: 15rem;
 }
 
 .assinaturaNewsletter h1 {

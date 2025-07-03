@@ -4,12 +4,13 @@ body {
 }
 
 main {
-    max-width: 1200px;
+    max-width: 1600px;
     margin: auto;
 }
 
 html{
     scroll-behavior: smooth;
+
 }
 
 @media(min-width: 920px) {
