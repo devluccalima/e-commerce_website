@@ -16,6 +16,7 @@
   }
 }
 
+
 .fieldGroup input {
   flex: 1;
   font-size: 16px;
@@ -34,12 +35,13 @@
   margin-left: 15rem;
 }
 
-.formContainer:hover {
-  box-shadow: 10px 10px 30px 0px #0000002e;
+.fieldGroup input:hover {
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
 }
 
 .fieldGroup button:hover {
    cursor: pointer;
+   box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
 }
 
 .fieldGroup button {

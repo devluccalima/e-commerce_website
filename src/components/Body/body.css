@@ -3,10 +3,7 @@ body {
     
 }
 
-main {
-    max-width: 1600px;
-    margin: auto;
-}
+
 
 html{
     scroll-behavior: smooth;
